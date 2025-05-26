@@ -16,5 +16,6 @@ spec:
       containers:
       - name: react-frontend
         image: abhiair/vite-react-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
